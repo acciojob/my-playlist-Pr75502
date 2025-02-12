@@ -8,6 +8,13 @@ li{
 a{
 	text-decoration-line: none;
 }
-<body{
+body{
 	background-color: rgb(204, 204, 204);
+}
+audio, video{
+	background-color: rgb(255, 255, 255); 
+	
+	padding:10px;
+	border-radius:10px;
+			:center;
 }

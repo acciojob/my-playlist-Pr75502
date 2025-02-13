@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-h1, h2{
+h1, h2, div, p {
 		text-align:center;
 }
 li{
@@ -11,8 +11,23 @@ a{
 body{
 	background-color: rgb(204, 204, 204);
 }
-.player_one, .player_two{
+.player_one{
+	border-collapse:collapse;
+		display:flex;
+	margin:0px auto;
 	background-color: rgb(255, 255, 255); 
-	padding:10px;
+	padding:20px;
+	border-radius:10px;
+	
+}
+
+
+
+
+.player_two{
+	display:flex;
+	margin:0px auto;
+	background-color: rgb(255, 255, 255); 
+	padding:20px;
 	border-radius:10px;
 }
